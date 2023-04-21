@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <!-- bootStrap links-->
-
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,40 +15,96 @@
         font-family: 'Fredoka', sans-serif;
         font-family: 'Gamja Flower', cursive;
      -->
+     <!-- css -->
+     <link rel="stylesheet" href="css/frutta.css">
     <title>frutta</title>
 </head>
 <body>
-    <div class="nav">
+    <nav class="nav">
+        <img src="img/frutta-logo.png" alt="frutta-logo" class="img-logo d-block d-md-none d-lg-none d-xl-none d-xxl-none">
+
         <ul>
             <li>
-                Home
+                <a href="">
+                    Home
+                </a>
             </li>
             <li>
-                Products
+                <a href="">
+                    Products
+                </a>
             </li>
         </ul>
-        <img src="img/frutta-logo.png" alt="" class="img-logo">
+        <img src="img/frutta-logo.png" alt="frutta-logo" class="img-logo d-none d-md-block d-lg-block d-xl-block d-xxl-block">
         <ul>
             <li>
-                About Us
+                <a href="">
+                    About Us
+                </a>
             </li>
             <li>
-                Contact Us
+                <a href="">
+                    Contact Us
+                </a>
             </li>
         </ul>
-    </div>
+    </nav>
+
+
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="#">
+            <img src="img/frutta-logo.png" alt="" class="img-logo">
+          </a>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </ul>
+
+            <a class="navbar-brand" href="#">
+                <img src="img/frutta-logo.png" alt="" class="img-logo ">
+            </a>
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav> -->
+
+
+
+
+
+
 
     <!-- Landing page section starts -->
     <section class="sec-home-1">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-center border home-content-sec-1">
                     <div class="row">
-                        <div class="col-md-12">
-                            <h1>
-                                <span>African's</span>
+                        <div class="col-md-12 d-flex flex-column justify-content-right">
+                            <h3 class="fn">
+                                <span >African's</span>
                                 Favorite Drink 
-                            </h1>
+                            </h3>
                             <p>
                                 We Supply the best fruit juice in Africa, check out our list of products that are ready to be shipped to your location.
                             </p>
@@ -66,14 +122,18 @@
                 </div>
             </div>
         </div>
-        <img src="" alt="" class="single-orang-leaf-sec-1">
-        <img src="" alt="" class="single-orang-leaf-sec-1">
-        <img src="" alt="" class="orang-home-grouped">
+        
+        <img src="img/orange_leave__1.png" alt="" class="single-orang-leaf-sec-1">
+        <img src="img/orange_leave__2.png" alt="" class="single-orang-leaf-sec-2">
+        <img src="img/orange_img-1 (1).png" alt="" class="orang-home-grouped">
     </section>
     <!-- Landing page section ends -->
 
+    <!-- javaScript link -->
+    <script src="js/frutta.js"></script>
+    <!-- bootstrap link -->
+    <script src="bootstrap/js/bootstrap.js"></script>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script> -->
 </body>
 </html>

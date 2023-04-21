@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+body{
+    width: 100%;
+}
+
+/* nav section starts here */
+
+nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    position: fixed;
+}
+nav ul{
+    padding: 0px;
+    list-style:none; 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 25%;
+    border: 2px solid red;
+
+}
+/* All links */
+nav ul>li>a{
+    text-decoration: none;
+    color:#3C7126;
+}
+
+/* Logo starts here*/
+img.img-logo{
+    /* width: 208px; */
+    width: 10%;
+    height: 6%;
+}
+/* Logo ends here */
+
+/* nav section ends here */
+
+/* accent images starts here */
+img.orang-home-grouped{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 15%;
+}
+
+img.single-orang-leaf-sec-1{
+    position: absolute;
+    width: 8%;
+    height: 7%;
+    left: -70px;
+    top: 185px;
+}
+
+img.single-orang-leaf-sec-2{
+    position: absolute;
+    width: 8%;
+    height: 14%;
+    right: -3.5%;
+    top: 125px;
+}
+/* accent images ends here */
+
+/* section 1 (sec-home-1) starts here*/
+    section.sec-home-1{
+        /* width: 100; */
+        height: 100vh;
+        border: 2px solid blue;
+        position: relative;
+        overflow-x: hidden;
+    }
+
+    .home-content-sec-1{
+        height: 99vh;
+        width: 50%;
+    }
+
+     h3.fn{
+         font-family: "Gamja Flower", cursive;
+         
+         font-family: 'Fredoka';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 40px;
+         line-height: 55px;
+         width: 50%;
+         border: 1px solid red;
+        }
+        
+        h3.fn>span{
+        color: #3C7126;
+        font-family: 'Gamja Flower';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 170%;
+        /* line-height: 150px; */
+    }
+
+    section.sec-home-1 p{
+        font-family: 'Fredoka';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        width: 80%;
+    }
+
+/* section 1 (sec-home-1) ends here*/
