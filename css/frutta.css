@@ -80,24 +80,41 @@ img.single-orang-leaf-sec-2{
         overflow-x: hidden;
     }
 
+    section.sec-home-1>.container-fluid>.row>.home-content-sec-1{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid blue;
+    }
+    /* grouped row class */
+    section.sec-home-1>.container-fluid>.row>.home-content-sec-1>.row{
+        width: 70%;
+        border: 1px solid green;
+    }
+
     .home-content-sec-1{
         height: 99vh;
         width: 50%;
     }
+    section.sec-home-1 h1.frutta-text{
+        font-size: 120px;
+        color: #3C7126;
+    }
 
-     h3.fn{
+    h3.fn{
          /* font-family: "Gamja Flower", cursive; */
 
          font-family: 'Fredoka', sans-serif;
          font-style: normal;
          font-weight: 400;
-         font-size: 40px;
+         font-size: 30px;
          line-height: 55px;
-         width: 50%;
+         /* width: 50%; */
          border: 1px solid red;
         }
         
-        h3.fn>span{
+    h3.fn>span{
         color: #3C7126;
         /* font-family: 'Gamja Flower'; */
         /* font-style: normal; */
@@ -112,7 +129,33 @@ img.single-orang-leaf-sec-2{
         font-weight: 300;
         font-size: 20px;
         line-height: 24px;
-        width: 80%;
+        width: 90%;
     }
 
+    /* button .row section starts here */
+    section.sec-home-1>.container-fluid>.row>.home-content-sec-1>.row.btn-sec>.col-md-12{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    section.sec-home-1>.container-fluid>.row>.home-content-sec-1>.row.btn-sec>.col-md-12>button.button-l{
+        /* color: #3C7126; */
+        border: 1px solid #3C7126;
+        background-color: transparent;
+        /* padding: 10px; */
+        width: 201px;
+        height: 46px;
+        font-size: 20px;
+    }
+    section.sec-home-1>.container-fluid>.row>.home-content-sec-1>.row.btn-sec>.col-md-12>button.button-r{
+        border: none;
+        font-size: 20px;
+        width: 201px;
+        height: 46px;
+        background-color: #3C7126;
+        color: #ffffff;
+    }
+    /* button .row section ends here */
 /* section 1 (sec-home-1) ends here*/
