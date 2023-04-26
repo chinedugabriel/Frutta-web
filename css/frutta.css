@@ -47,27 +47,29 @@ img.img-logo{
 /* nav section ends here */
 
 /* accent images starts here */
-img.orang-home-grouped{
+/* img.orang-home-grouped{
     position: absolute;
     bottom: 0px;
     left: 0px;
     width: 15%;
-}
+} */
 
 img.single-orang-leaf-sec-1{
     position: absolute;
-    width: 8%;
-    height: 7%;
-    left: -70px;
+    width: 6%;
+    height: 5%;
+    left: -60px;
     top: 185px;
 }
 
 img.single-orang-leaf-sec-2{
     position: absolute;
-    width: 8%;
-    height: 10%;
-    right: -3.5%;
-    top: 125px;
+    width: 6%;
+    height: 12%;
+    /* right: -3.5%; */
+    /* top: 125px; */
+    bottom: -32px;
+    left: 0px;
 }
 /* accent images ends here */
 
@@ -151,11 +153,19 @@ img.single-orang-leaf-sec-2{
     }
     section.sec-home-1>.container-fluid>.row>.home-content-sec-1>.row.btn-sec>.col-md-12>button.button-r{
         border: none;
-        font-size: 20px;
+        font-size: 125%;
         width: 201px;
         height: 46px;
         background-color: #3C7126;
         color: #ffffff;
     }
     /* button .row section ends here */
+
+    /* fruit-juice-img-section starts here*/
+        img.fruit-juice-grouped{
+            width: 90%;
+            height: 57%;
+        }
+    /* fruit-juice-img-section ends here*/
+
 /* section 1 (sec-home-1) ends here*/
