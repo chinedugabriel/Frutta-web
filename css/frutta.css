@@ -5,6 +5,7 @@
 
 body{
     width: 100%;
+    font-family: 'Fredoka';
 }
 
 /* nav section starts here */
@@ -16,6 +17,8 @@ nav{
     align-items: center;
     gap: 5%;
     position: fixed;
+    border: 2px solid red;
+
 }
 nav ul{
     padding: 0px;
@@ -23,8 +26,8 @@ nav ul{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    width: 25%;
-    border: 2px solid red;
+    width: 20%;
+    /* border: 2px solid red; */
 
 }
 /* All links */
@@ -37,7 +40,7 @@ nav ul>li>a{
 img.img-logo{
     /* width: 208px; */
     width: 10%;
-    height: 6%;
+    height: 5%;
 }
 /* Logo ends here */
 
@@ -62,7 +65,7 @@ img.single-orang-leaf-sec-1{
 img.single-orang-leaf-sec-2{
     position: absolute;
     width: 8%;
-    height: 14%;
+    height: 10%;
     right: -3.5%;
     top: 125px;
 }
@@ -83,9 +86,9 @@ img.single-orang-leaf-sec-2{
     }
 
      h3.fn{
-         font-family: "Gamja Flower", cursive;
-         
-         font-family: 'Fredoka';
+         /* font-family: "Gamja Flower", cursive; */
+
+         font-family: 'Fredoka', sans-serif;
          font-style: normal;
          font-weight: 400;
          font-size: 40px;
@@ -96,8 +99,8 @@ img.single-orang-leaf-sec-2{
         
         h3.fn>span{
         color: #3C7126;
-        font-family: 'Gamja Flower';
-        font-style: normal;
+        /* font-family: 'Gamja Flower'; */
+        /* font-style: normal; */
         font-weight: 500;
         font-size: 170%;
         /* line-height: 150px; */
