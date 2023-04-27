@@ -65,7 +65,7 @@ img.img-logo{
     width: 15%;
 } */
 
-img.single-orang-leaf-sec-1{
+section.sec-home-1 img.single-orang-leaf-sec-1{
     position: absolute;
     width: 6%;
     height: 5%;
@@ -73,7 +73,7 @@ img.single-orang-leaf-sec-1{
     top: 185px;
 }
 
-img.single-orang-leaf-sec-2{
+section.sec-home-1 img.single-orang-leaf-sec-2{
     position: absolute;
     width: 6%;
     height: 12%;
@@ -236,5 +236,68 @@ section.sec-home-2 .img-wrapper>img{
 section.sec-home-3{
     height: 100vh;
     background-color: #F6F6F6;
+    position: relative;
+    overflow: hidden;
+}
+
+section.sec-home-3>.container-fluid>.row>.col-md-12.product-list{
+    height:88vh;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper{
+    border: 2px solid #3C7126;
+    height: 67%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Home page Price tag starts here  */
+section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper>.text-price-wrapper{
+    background-color: #ffffff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 210%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Home page Price tag  ends here */
+
+.product-wrapper>img{
+    width: 134.03px;
+    /* width: 45%; */
+}
+section.sec-home-3>.top-single-orange-leaf-sec-3{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+section.sec-home-3 img.single-orange-leaf-sec-3{
+    position: absolute;
+    width: 6%;
+    height: 12%;
+    /* right: -3.5%; */
+    /* top: 125px; */
+    bottom: -32px;
+    left: 0px;
+}
+section.sec-home-3 img.grouped-fruits-sec-3{
+    position: absolute;
+    width: 15%;
+    /* height: 12%; */
+    /* right: -3.5%; */
+    /* top: 125px; */
+    bottom: -45px;
+    right: -46px;
 }
 /* section 1 (sec-home-1) ends here*/
