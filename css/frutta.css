@@ -22,9 +22,9 @@ nav ul{
     list-style:none; 
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
-    width: 25%;
-    border: 2px solid red;
+    justify-content: space-between;
+    width: 15%;
+    /* border: 2px solid red; */
 
 }
 /* All links */
@@ -83,7 +83,7 @@ img.single-orang-leaf-sec-2{
     }
 
      h3.fn{
-         font-family: "Gamja Flower", cursive;
+         /* font-family: "Gamja Flower", cursive; */
          
          font-family: 'Fredoka';
          font-style: normal;
@@ -92,12 +92,12 @@ img.single-orang-leaf-sec-2{
          line-height: 55px;
          width: 50%;
          border: 1px solid red;
+         color: #3C7126;
         }
         
         h3.fn>span{
-        color: #3C7126;
-        font-family: 'Gamja Flower';
-        font-style: normal;
+        /* font-family: 'Gamja Flower',cursive;
+        font-style: normal; */
         font-weight: 500;
         font-size: 170%;
         /* line-height: 150px; */
