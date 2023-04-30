@@ -5,7 +5,28 @@
 
 body{
     width: 100%;
+    font-family: 'Fredoka';
 }
+/* Green Text color */
+.green-text{
+    color: #3C7126;
+}
+
+/* Border-bottom */
+.Border-bottom-text{
+    border-bottom: 3px solid #3C7126;
+}
+
+/* Shared background starts here*/
+.shared-background{
+    background-image: url("/img/asset-img/fruit-pattern.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #DFE7C5;
+}
+/* Shared background ends here*/
+
 
 /* nav section starts here */
 
@@ -16,15 +37,19 @@ nav{
     align-items: center;
     gap: 5%;
     position: fixed;
+    background-color: #ffffffb4;
+    z-index: 99;
+    border: 2px solid red;
+
 }
 nav ul{
     padding: 0px;
     list-style:none; 
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
-    width: 15%;
-    /* border: 2px solid red; */
+    justify-content: space-around;
+    width: 25%;
+    border: 2px solid red;
 
 }
 /* All links */
@@ -37,67 +62,89 @@ nav ul>li>a{
 img.img-logo{
     /* width: 208px; */
     width: 10%;
-    height: 6%;
+    height: 5%;
 }
 /* Logo ends here */
 
 /* nav section ends here */
 
 /* accent images starts here */
-img.orang-home-grouped{
+/* img.orang-home-grouped{
     position: absolute;
     bottom: 0px;
     left: 0px;
     width: 15%;
-}
+} */
 
-img.single-orang-leaf-sec-1{
+section.sec-home-1 img.single-orang-leaf-sec-1{
     position: absolute;
-    width: 8%;
-    height: 7%;
-    left: -70px;
+    width: 6%;
+    height: 5%;
+    left: -60px;
     top: 185px;
 }
 
-img.single-orang-leaf-sec-2{
+section.sec-home-1 img.single-orang-leaf-sec-2{
     position: absolute;
-    width: 8%;
-    height: 14%;
-    right: -3.5%;
-    top: 125px;
+    width: 6%;
+    height: 12%;
+    /* right: -3.5%; */
+    /* top: 125px; */
+    bottom: -32px;
+    left: 0px;
 }
 /* accent images ends here */
 
 /* section 1 (sec-home-1) starts here*/
     section.sec-home-1{
         /* width: 100; */
+        margin: 0px;
+        padding: 0px;
         height: 100vh;
         border: 2px solid blue;
         position: relative;
         overflow-x: hidden;
     }
 
+    section.sec-home-1>.container-fluid>.row>.home-content-sec-1{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgb(187, 255, 0);
+    }
+    /* grouped row class */
+    section.sec-home-1>.container-fluid>.row>.home-content-sec-1>.row{
+        width: 70%;
+        border: 1px solid green;
+    }
+
     .home-content-sec-1{
         height: 99vh;
         width: 50%;
     }
+    section.sec-home-1 h1.frutta-text{
+        font-size: 120px;
+        color: #3C7126;
+    }
 
      h3.fn{
-         /* font-family: "Gamja Flower", cursive; */
+         font-family: "Gamja Flower", cursive;
          
          font-family: 'Fredoka';
          font-style: normal;
          font-weight: 400;
-         font-size: 40px;
+         font-size: 30px;
          line-height: 55px;
-         width: 50%;
+         /* width: 50%; */
          border: 1px solid red;
          color: #3C7126;
         }
         
         h3.fn>span{
-        /* font-family: 'Gamja Flower',cursive;
-        font-style: normal; */
+        color: #3C7126;
+        font-family: 'Gamja Flower';
+        font-style: normal;
         font-weight: 500;
         font-size: 170%;
         /* line-height: 150px; */
@@ -109,7 +156,255 @@ img.single-orang-leaf-sec-2{
         font-weight: 300;
         font-size: 20px;
         line-height: 24px;
-        width: 80%;
+        width: 90%;
     }
 
+    /* button .row section starts here */
+section.sec-home-1>.container-fluid>.row>.home-content-sec-1>.row.btn-sec>.col-md-12{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* section.sec-home-1>.container-fluid>.row>.home-content-sec-1>.row.btn-sec>.col-md-12>button */
+.button-l{
+    /* color: #3C7126; */
+    border: 1px solid #3C7126;
+    background-color: transparent;
+    /* padding: 10px; */
+    width: 201px;
+    height: 46px;
+    font-size: 20px;
+}
+/* section.sec-home-1>.container-fluid>.row>.home-content-sec-1>.row.btn-sec>.col-md-12>button */
+.button-r{
+    border: none;
+    font-size: 125%;
+    width: 201px;
+    height: 46px;
+    background-color: #3C7126;
+    color: #ffffff;
+}
+    /* button .row section ends here */
+
+    /* fruit-juice-img-section starts here*/
+img.fruit-juice-grouped{
+    /* width: 92%; */
+    /* height: 57%; */
+    /* height: 57%; */
+}
+    /* fruit-juice-img-section ends here*/
+
 /* section 1 (sec-home-1) ends here*/
+
+/* section 2 (sec-home-2) starts here*/
+section.sec-home-2{
+    height: 100vh;
+}
+section.sec-home-2>.container-fluid>.row>.col-md-6{
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid palevioletred;
+}
+section.sec-home-2>.container-fluid>.row>.col-md-6>.row>.col-md-12{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+section.sec-home-2>.container-fluid>.row>.col-md-6>.row>.col-md-12>p{
+    /* width: 60%; */
+    font-size: 28px;
+    line-height: 36px;
+}
+
+
+section.sec-home-2 .img-wrapper{
+    /* width: 90%; */
+    /* height:; */
+    text-align: center;
+    border: 2px solid palevioletred;
+}
+section.sec-home-2 .img-wrapper>img{
+    height: 100%;
+    width: 95%;
+    /* border-radius: 12%; */
+    border-radius: 72px;
+}
+
+/* section 2 (sec-home-2) ends here*/
+
+/* section 3 (sec-home-3) starts here*/
+section.sec-home-3{
+    height: 100vh;
+    background-color: #F6F6F6;
+    position: relative;
+    overflow: hidden;
+}
+
+section.sec-home-3>.container-fluid>.row>.col-md-12.product-list{
+    height:88vh;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper{
+    border: 2px solid #3C7126;
+    height: 67%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Home page Price tag starts here  */
+section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper>.text-price-wrapper{
+    background-color: #ffffff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 210%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper>.text-price-wrapper>p{
+    margin: 0px;
+    rotate: -24deg;
+}
+
+/* Home page Price tag  ends here */
+
+.product-wrapper>img{
+    width: 134.03px;
+    /* width: 45%; */
+}
+
+section.sec-home-3>.top-single-orange-leaf-sec-3{
+    position: absolute;
+    top: -10px;
+    right: 0px;
+}
+
+section.sec-home-3 img.single-orange-leaf-sec-3{
+    position: absolute;
+    width: 6%;
+    height: 12%;
+    /* right: -3.5%; */
+    /* top: 125px; */
+    bottom: -32px;
+    left: 0px;
+}
+section.sec-home-3 img.grouped-fruits-sec-3{
+    position: absolute;
+    width: 15%;
+    /* height: 12%; */
+    /* right: -3.5%; */
+    /* top: 125px; */
+    bottom: -45px;
+    right: -46px;
+}
+/* section 3 (sec-home-3) ends here*/
+
+/* section 4 (sec-home-4) starts here*/
+section.sec-home-4{
+    /* height: 100vh; */
+}
+
+section.sec-home-4>.container-fluid>.row>.col-md-6{
+    /* height: 100%; */
+    height: 100vh;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 5%;
+}
+
+section.sec-home-4>.container-fluid>.row>.col-md-6>.row>.col-md-12>p{
+    width: 60%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+section.sec-home-4>.container-fluid>.row>.col-md-6 .why-points{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    border: 1px solid black;
+}
+
+section.sec-home-4>.container-fluid>.row>.col-md-6 .why-points>p{
+    width: 486px;
+}
+section.sec-home-4>.container-fluid>.row>.col-md-6 .why-points>img.why-us-icon{
+    height: 40%;
+    width: 9%;
+    margin: 0px;
+}
+
+section.sec-home-4>.container-fluid>.row>.col-md-6>img{
+    width: 531px;
+    height: 798px;
+    border-radius: 64px;
+}
+
+/* section 4 (sec-home-4) ends here*/
+
+
+/* section 5 (sec-home-5) starts here*/
+section.sec-home-5{
+    height: 100vh;
+
+}
+
+section.sec-home-5>.container-fluid>.row>.col-md-6{
+    /* height: 100%; */
+    height: 100vh;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-flow: column wrap;
+    gap: 5%;
+}
+section.sec-home-5>.container-fluid>.row>.col-md-6 input,textarea{
+    background-color: #f7f7f7 !important;
+}
+
+section.sec-home-5>.container-fluid>.row>.col-md-6 .form-wrapper{
+    width: 80%;
+    height:80%;
+    background-color: #ffffff;
+    /* width: 703px; */
+    /* height: 899px; */
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit{
+    color: #ffffff;
+    /* border: 1px solid #3C7126; */
+    background-color: #3C7126;
+    width: 100%;
+    height: 46px;
+    font-size: 20px;
+    border: none;
+}
+
+/* section 5 (sec-home-5) ends here*/
+
