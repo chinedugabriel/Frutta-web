@@ -379,6 +379,7 @@ section.sec-home-5>.container-fluid>.row>.col-md-6{
     flex-flow: column wrap;
     gap: 5%;
 }
+
 section.sec-home-5>.container-fluid>.row>.col-md-6 input,textarea{
     background-color: #f7f7f7 !important;
 }
@@ -393,6 +394,25 @@ section.sec-home-5>.container-fluid>.row>.col-md-6 .form-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 0px;
+    
+}
+section.sec-home-5>.container-fluid>.row>.col-md-6 .form-wrapper>form{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid red;
+
+}
+section.sec-home-5>.container-fluid>.row>.col-md-6 .form-wrapper>form>.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* margin-top: 0px; */
 }
 
 .submit{
