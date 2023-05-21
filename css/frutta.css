@@ -269,8 +269,10 @@ section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrappe
 /* Home page Price tag starts here  */
 section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper>.text-price-wrapper{
     background-color: #ffffff;
-    height: 100px;
-    width: 100px;
+    /* height: 100px; */
+    /* width: 100px; */
+    height: 70%;
+    width: 90%;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -286,8 +288,10 @@ section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrappe
 /* Home page Price tag  ends here */
 
 .product-wrapper>img{
-    width: 134.03px;
-    /* width: 45%; */
+    height: 75%;
+    /* height: 80%; */
+    /* width: 134.03px; */
+    width: 100%;
 }
 
 section.sec-home-3>.top-single-orange-leaf-sec-3{
@@ -307,7 +311,7 @@ section.sec-home-3 img.single-orange-leaf-sec-3{
 }
 section.sec-home-3 img.grouped-fruits-sec-3{
     position: absolute;
-    width: 15%;
+    width: 12%;
     /* height: 12%; */
     /* right: -3.5%; */
     /* top: 125px; */
