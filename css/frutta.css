@@ -75,6 +75,9 @@ nav ul.first-menu>li:first-child{
 nav ul.first-menu>li:hover{
     border-bottom:2px solid #3C7126;
 }
+nav div#second-menu-list{
+    display: none;
+}
 
 nav ul.second-menu{
     padding: 10px 0px;
