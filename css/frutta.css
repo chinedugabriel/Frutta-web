@@ -322,13 +322,15 @@ section.sec-home-3{
     background-color: #F6F6F6;
     position: relative;
     overflow: hidden;
-    padding: 10px 0px;
+    padding: 5% 0px;
     height: auto;
 }
 
 section.sec-home-3>.container-fluid>.row>.col-md-12.product-list{
-    /* height:88vh; */
-    height:90vh;
+    /* height:90vh; */
+    margin: 2% 0px;
+    padding: 10px 0px;
+    height: auto;
     border: 2px solid rebeccapurple;
     display: flex;
     flex-flow: row wrap;
@@ -341,32 +343,41 @@ section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrappe
     border: 2px solid #3C7126;
     /* height: 67%; */
     height: 65%;
+    height: 500px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 0px;
+    padding: 6px 0px;
+    
 }
 /* Home page Price tag starts here  */
 section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper>.text-price-wrapper{
     background-color: #ffffff;
     height: 100px;
-    width: 100px;
+    width: 90px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 210%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper>.text-price-wrapper>p{
+    font-size: 200%;
     margin: 0px;
     rotate: -24deg;
+}
+section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper:hover .text-price-wrapper{
+    box-shadow: none;
+}
+section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper:hover p{
+    rotate: 0deg;
 }
 
 /* Home page Price tag  ends here */
 
 .product-wrapper>img{
+    /* this is for each product available */
     width: 134.03px;
     /* width: 45%; */
 }
@@ -375,25 +386,25 @@ section.sec-home-3>.top-single-orange-leaf-sec-3{
     position: absolute;
     top: -10px;
     right: 0px;
+    width: 8%;
 }
 
 section.sec-home-3 img.single-orange-leaf-sec-3{
     position: absolute;
-    width: 6%;
-    height: 12%;
+    width: 8%;
+    height: 8%;
     /* right: -3.5%; */
     /* top: 125px; */
-    bottom: -32px;
+    bottom: -20px;
     left: 0px;
 }
 section.sec-home-3 img.grouped-fruits-sec-3{
     position: absolute;
     width: 15%;
-    /* height: 12%; */
-    /* right: -3.5%; */
-    /* top: 125px; */
     bottom: -45px;
     right: -46px;
+    opacity: 50%;
+    z-index: 0;
 }
 /* section 3 (sec-home-3) ends here*/
 
