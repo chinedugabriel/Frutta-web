@@ -191,21 +191,13 @@ section.sec-home-1 img.single-orang-leaf-sec-2{
          font-family: 'Fredoka';
          font-style: normal;
          font-weight: 400;
-         font-size: 30px;
-         line-height: 55px;
+         font-size: 20px;
+         /* line-height: 55px; */
          /* width: 50%; */
          border: 1px solid red;
          color: #3C7126;
         }
         
-        h3.fn>span{
-        color: #3C7126;
-        font-family: 'Gamja Flower';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 170%;
-        /* line-height: 150px; */
-    }
 
     section.sec-home-1 p{
         font-family: 'Fredoka';
