@@ -43,20 +43,23 @@ body p{
 /* nav section starts here */
 
 nav{
+    height: auto;
+    padding: 10px 0px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    gap: 5%;
+    /* align-content: center; */
+    /* gap: 5%; */
     /* position: fixed; */
-    /* position: sticky;
-    top: 0px; */
-    background-color: #ffffffb4;
+    position: sticky;
+    top: 0px;
+    background-color: #ffffffd2;
     z-index: 99;
     border: 2px solid red;
 
 }
-nav ul{
+nav ul.first-menu{
     padding: 0px;
     list-style:none; 
     display: flex;
@@ -66,10 +69,35 @@ nav ul{
     border: 2px solid red;
 
 }
+nav ul.first-menu>li:first-child{
+    border-bottom:2px solid #3C7126;
+}
+nav ul.first-menu>li:hover{
+    border-bottom:2px solid #3C7126;
+}
+
+nav ul.second-menu{
+    padding: 10px 0px;
+    list-style:none; 
+    display: flex !important;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    /* width: 25%; */
+    height: 60vh;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 65px;
+    border: 1px solid red;
+
+}
 /* All links */
 nav ul>li>a{
     text-decoration: none;
     color:#3C7126;
+    padding: 10px 0px;
+
 }
 
 /* Logo starts here*/
@@ -77,6 +105,10 @@ img.img-logo{
     /* width: 208px; */
     width: 10%;
     height: 5%;
+    /* use for mobile 
+    width: 15%;
+    height: 10%;
+    */
 }
 /* Logo ends here */
 
@@ -151,7 +183,7 @@ section.sec-home-1 img.single-orang-leaf-sec-2{
     }
 
      h3.fn{
-         font-family: "Gamja Flower", cursive;
+         /* font-family: "Gamja Flower", cursive; */
          
          font-family: 'Fredoka';
          font-style: normal;
