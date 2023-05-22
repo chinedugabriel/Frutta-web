@@ -597,6 +597,8 @@ section.footer .twin-leaf-footer{
 
 @media screen  and (max-width: 899px) {
     
-    
+    body{
+        width: 100vw;
+    }
 }
 /* Media Query ends here*/
