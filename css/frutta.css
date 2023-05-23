@@ -69,9 +69,9 @@ nav ul.first-menu{
     /* border: 2px solid red; */
 
 }
-nav ul.first-menu>li:first-child{
+/* nav ul.first-menu>li:first-child{
     border-bottom:2px solid #3C7126;
-}
+} */
 nav ul.first-menu>li:hover{
     border-bottom:2px solid #3C7126;
 }
@@ -597,8 +597,8 @@ section.footer .twin-leaf-footer{
 
 @media screen  and (max-width: 899px) {
     
-    body{
+    /* body{
         width: 100%;
-    }
+    } */
 }
 /* Media Query ends here*/
