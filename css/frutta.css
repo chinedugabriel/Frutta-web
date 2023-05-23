@@ -411,6 +411,8 @@ section.sec-home-3 img.grouped-fruits-sec-3{
 /* section 4 (sec-home-4) starts here*/
 section.sec-home-4{
     /* height: 100vh; */
+    height: auto;
+    padding: 5% 0px;
 }
 
 section.sec-home-4>.container-fluid>.row>.col-md-6{
@@ -423,36 +425,48 @@ section.sec-home-4>.container-fluid>.row>.col-md-6{
     flex-flow: column nowrap;
     gap: 5%;
 }
+/* 
+section.sec-home-4>.container>.row>.col-md-6>.row>.col-md-12>.row>.col-md-12{
+    display: flex;
+    flex-flow: row nowrap;
 
-section.sec-home-4>.container-fluid>.row>.col-md-6>.row>.col-md-12>p{
-    width: 60%;
+} */
+
+/* section.sec-home-4>.container-fluid>.row>.col-md-6>.row>.col-md-12  p{
+    width: 50%;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
-}
+    line-height: 19px;
+} */
 
-section.sec-home-4>.container-fluid>.row>.col-md-6 .why-points{
+section.sec-home-4>.container>.row>.col-md-6 .why-points{
     display: flex;
     flex-flow: row nowrap;
     gap: 20px;
     border: 1px solid black;
 }
 
-section.sec-home-4>.container-fluid>.row>.col-md-6 .why-points>p{
+/* section.sec-home-4>.container-fluid>.row>.col-md-6 .why-points>p{
     width: 486px;
-}
-section.sec-home-4>.container-fluid>.row>.col-md-6 .why-points>img.why-us-icon{
-    height: 40%;
-    width: 9%;
+} */
+section.sec-home-4>.container>.row>.col-md-6 .why-points>img.why-us-icon{
+    height: 50px;
+    width: 50px;
     margin: 0px;
 }
 
-section.sec-home-4>.container-fluid>.row>.col-md-6>img{
+section.sec-home-4>.container>.row>.col-md-6.imgfram{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+section.sec-home-4>.container>.row>.col-md-6>img{
     /* width: 531px; */
     /* height: 798px; */
-    width: 60%;
+    width: 80%;
     height: 85%;
-    border-radius: 64px;
+    border-radius: 54px;
 }
 
 /* section 4 (sec-home-4) ends here*/
