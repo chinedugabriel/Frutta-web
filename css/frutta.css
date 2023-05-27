@@ -774,12 +774,10 @@ section.footer .twin-leaf-footer{
     
     section.sec-home-1 img.single-orang-leaf-sec-2{
         position: absolute;
-        width: 6%;
-        height: 12%;
-        /* right: -3.5%; */
-        /* top: 125px; */
-        bottom: -32px;
-        left: 0px;
+        bottom: -1%;
+        left: -1%;
+        /* left: -5px; */
+        width: 10%;
     }
     /* accent images ends here */
     
