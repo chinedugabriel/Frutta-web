@@ -1,5 +1,8 @@
 // variables 
 
+// this covers the complete navigation 
+let mainNav = document.getElementById("main-nav");
+
 // Navigation Icon
 let navToggleIcon = document.getElementById("toggle-menu-icon");
 
@@ -17,3 +20,11 @@ navToggleIcon.addEventListener('click',()=>{
         navToggleIcon.src="img/icons/menu-toggle.png";
     }
 });
+
+
+// document.body.addEventListener("scroll")
+
+// this just a reminder 
+// add a feature for navigation onscroll such that when the user scrolls down the navigation hides and when the user scrolls up the navigation becomes visible.
+
+
