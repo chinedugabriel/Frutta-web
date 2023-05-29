@@ -1382,7 +1382,7 @@ section.footer .twin-leaf-footer{
     section.sec-1-contact-us>.container-fluid>.row>.col-md-6>.contact-wrapper{
         /* border: 1px solid red; */
         width: 90%;
-        height: 80vh;
+        height: auto;
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
@@ -1390,8 +1390,8 @@ section.footer .twin-leaf-footer{
         gap: 40px;
         background: none;
         border-radius: 0px;
-        padding: 5px 0px;
-        margin: 10px 0px;
+        padding: 10px 0px;
+        margin: 15px 0px;
     }
     section.sec-1-contact-us>.container-fluid>.row>.col-md-6>.contact-wrapper h1,.big-font{
         font-weight: 600;
