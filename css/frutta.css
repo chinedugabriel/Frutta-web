@@ -72,7 +72,8 @@ nav ul.first-menu{
     flex-flow: row nowrap;
     justify-content: space-around;
     width: 25%;
-    transition: all 2s;
+    
+
     /* border: 2px solid red; */
 
 }
@@ -89,7 +90,7 @@ nav div#second-menu-list{
 nav ul.second-menu{
     padding: 10px 0px;
     list-style:none; 
-    display: flex !important;
+    display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
@@ -100,6 +101,8 @@ nav ul.second-menu{
     font-size: 34px;
     line-height: 65px;
     border: 1px solid red;
+    display: none;
+
 
 }
 /* All links */
@@ -115,10 +118,7 @@ img.img-logo{
     /* width: 208px; */
     width: 10%;
     height: 5%;
-    /* use for mobile 
-    width: 15%;
-    height: 10%;
-    */
+    transition: all 2s;
 }
 /* Logo ends here */
 
@@ -626,6 +626,40 @@ section.footer .twin-leaf-footer{
 }
 /* Footer section ends here */
 
+/* home page Ends here */
+
+/* --------- */
+
+/* .template-banner for all Page starts here */
+.template-banner-main{
+    background: url("../img/asset-img/juice-jars.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.template-banner-wrapper{
+    /* padding: 10% 0px; */
+    height: 55vh;
+    background-color: #d9d9d9a2;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.template-banner-wrapper h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+}
+.template-banner-wrapper p{
+    font-size: 20px;
+    
+}
+
+/* Contact Us Page starts here */
+
+/* Contact Us Page ends here */
+
+/* --------- */
 
 /* Media Query Starts here*/
 
@@ -1253,6 +1287,42 @@ section.footer .twin-leaf-footer{
         
     }
     /* Footer section ends here */
+    /* Home Page Ends Here */
+
+        /* --------- */
+    /* .template-banner for all Page starts here */
+    .template-banner-main{
+        background: url("../img/asset-img/juice-jars.png") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .template-banner-wrapper{
+        /* padding: 10% 0px; */
+        height: 55vh;
+        background-color: #d9d9d9a2;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .template-banner-wrapper h1{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .template-banner-wrapper p{
+        font-size: 16px;
+
+    }
+
+    /* template-banner for all Page ends here */
+    
+    /* Contact Us Page starts here */
+
+    
+    /* Contact Us Page ends here */
+
+    /* --------- */
 
 }
 /* Media Query ends here*/
