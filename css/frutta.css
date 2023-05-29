@@ -1366,60 +1366,10 @@ section.footer .twin-leaf-footer{
 
     /* template-banner for all Page ends here */
     
+
 /* Contact Us Page starts here */
-section.sec-1-contact-us{
-    padding: 5% 0px;
-    background-color: #F8F5F5;
-}
-section.sec-1-contact-us>.container-fluid>.row>.col-md-6{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    /* border: 1px solid red; */
-}
-section.sec-1-contact-us>.container-fluid>.row>.col-md-6>.contact-wrapper{
-    /* border: 1px solid red; */
-    width: 75%;
-    height: 80vh;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    background: #FFFFFF;
-    border-radius: 40px;
-    padding: 0px 5%;
-}
-section.sec-1-contact-us>.container-fluid>.row>.col-md-6>.contact-wrapper h1,.big-font{
-    font-weight: 700;
-    /* font-size: 32px; */
-}
-section.sec-1-contact-us>.container-fluid>.row>.col-md-6>.contact-wrapper p{
-    font-size: 20px;
-}
-
-section.sec-1-contact-us>.container-fluid>.row>.col-md-6>.contact-wrapper .icon-contact-us{
-    width: 70%;
-}
-
-
-section.sec-1-contact-us>.container-fluid>.row>.col-md-6>.map-wrapper{
-    /* border: 1px solid red; */
-    width: 75%;
-    height: 80vh;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-}
-section.sec-1-contact-us>.container-fluid>.row>.col-md-6>.map-wrapper>iframe{
-    height: 100%;
-    width: 100%;
-}
-/* Contact Us Page ends here *//* Contact Us Page starts here */
     section.sec-1-contact-us{
-        padding: 0px 0px;
+        padding: 10px 0px;
         background-color: #ffffff;
     }
     section.sec-1-contact-us>.container-fluid>.row>.col-md-6{
@@ -1444,7 +1394,7 @@ section.sec-1-contact-us>.container-fluid>.row>.col-md-6>.map-wrapper>iframe{
         margin: 10px 0px;
     }
     section.sec-1-contact-us>.container-fluid>.row>.col-md-6>.contact-wrapper h1,.big-font{
-        font-weight: 700;
+        font-weight: 600;
         /* font-size: 32px; */
     }
     section.sec-1-contact-us>.container-fluid>.row>.col-md-6>.contact-wrapper p{
