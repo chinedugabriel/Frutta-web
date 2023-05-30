@@ -1159,6 +1159,7 @@ section.footer p.Copyright{
         align-items: center;
         flex-flow: column nowrap;
         gap: 5%;
+        padding: 5% 10px;
     }
     /* 
     section.sec-home-4>.container>.row>.col-md-6>.row>.col-md-12>.row>.col-md-12{
@@ -1174,7 +1175,7 @@ section.footer p.Copyright{
         line-height: 19px;
     } */
     
-    section.sec-home-4>.container>.row>.col-md-6 .why-points{
+    section.sec-home-4>.container-fluid>.row>.col-md-6 .why-points{
         display: flex;
         flex-flow: row nowrap;
         gap: 20px;
@@ -1184,20 +1185,20 @@ section.footer p.Copyright{
     /* section.sec-home-4>.container-fluid>.row>.col-md-6 .why-points>p{
         width: 486px;
     } */
-    section.sec-home-4>.container>.row>.col-md-6 .why-points>img.why-us-icon{
+    section.sec-home-4>.container-fluid>.row>.col-md-6 .why-points>img.why-us-icon{
         height: 50px;
         width: 50px;
         margin: 0px;
     }
     
-    section.sec-home-4>.container>.row>.col-md-6.imgfram{
+    section.sec-home-4>.container-fluid>.row>.col-md-6.imgfram{
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
         padding: 10px 0px;
     }
-    section.sec-home-4>.container>.row>.col-md-6>img{
+    section.sec-home-4>.container-fluid>.row>.col-md-6>img{
         margin-top: 10px;
         width: 90%;
         height: 95%;
