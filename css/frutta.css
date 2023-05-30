@@ -422,18 +422,19 @@ section.sec-home-3 img.grouped-fruits-sec-3{
 section.sec-home-4{
     /* height: 100vh; */
     height: auto;
-    padding: 5% 0px;
+    /* padding: 5% 0px; */
 }
 
 section.sec-home-4>.container-fluid>.row>.col-md-6{
     /* height: 100%; */
-    height: 100vh;
+    /* height: 100vh; */
     border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
     gap: 5%;
+    padding: 5% 0px;
 }
 /* 
 section.sec-home-4>.container>.row>.col-md-6>.row>.col-md-12>.row>.col-md-12{
