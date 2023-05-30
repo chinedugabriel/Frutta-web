@@ -681,7 +681,8 @@ section.footer p.Copyright{
     section.sec-1-contact-us>.container-fluid>.row>.col-md-6>.contact-wrapper{
         /* border: 1px solid red; */
         width: 75%;
-        height: 80vh;
+        /* height: 80vh; */
+        height: auto;
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
@@ -689,7 +690,7 @@ section.footer p.Copyright{
         gap: 40px;
         background: #FFFFFF;
         border-radius: 40px;
-        padding: 0px 5%;
+        padding: 15px 5%;
     }
     section.sec-1-contact-us>.container-fluid>.row>.col-md-6>.contact-wrapper h1,.big-font{
         font-weight: 700;
