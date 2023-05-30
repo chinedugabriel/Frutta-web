@@ -362,8 +362,8 @@ section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrappe
 /* Home page Price tag starts here  */
 section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper>.text-price-wrapper{
     background-color: #ffffff;
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -373,7 +373,7 @@ section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrappe
     margin-bottom: 10px;
 }
 section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper>.text-price-wrapper>p{
-    font-size: 400%;
+    font-size: 300%;
     margin: 0px;
     rotate: -24deg;
 }
