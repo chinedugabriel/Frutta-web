@@ -1224,11 +1224,11 @@ section.footer .twin-leaf-footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 10px 0px;
+        padding: 20px 0px;
         
     }
     section.sec-home-5>.container-fluid>.row>.col-md-6 .form-wrapper>form{
-        width: 90%;
+        width: 95%;
         height: auto;
         display: flex;
         align-items: center;
