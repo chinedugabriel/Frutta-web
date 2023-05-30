@@ -1181,11 +1181,12 @@ section.footer .twin-leaf-footer{
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
+        padding: 10px 0px;
     }
     section.sec-home-4>.container>.row>.col-md-6>img{
         margin-top: 10px;
-        width: 80%;
-        height: 90%;
+        width: 90%;
+        height: 95%;
         border-radius: 54px;
     }
     
