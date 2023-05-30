@@ -709,6 +709,7 @@ section.footer p.Copyright{
         /* border: 1px solid red; */
         width: 75%;
         height: 76vh;
+        height: 100%;
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
