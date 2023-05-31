@@ -709,7 +709,7 @@ section.sec-1-about .icon-list{
 section.sec-1-about .col-md-5>.img-wrapper{
     height: 90%;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
 
 }
@@ -722,8 +722,8 @@ section.sec-2-about{
 section.sec-2-about .row>.col-md-6{
     /* height: 5; */
 }
-section.sec-2-about .row>.col-md-6>.icon-ov-wrapper{
-    border: 1px solid red;
+section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-1,.icon-ov-wrapper-2{
+    /* border: 1px solid red; */
     /* height: 150%; */
     padding: 20px 30px;
     display: flex;
@@ -734,6 +734,35 @@ section.sec-2-about .row>.col-md-6>.icon-ov-wrapper{
     height: 410px;
     border-radius: 40px;
     
+}
+section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-1{
+    background-color: #FFFFFF;
+
+}
+section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-1>.img-circle{
+    background-color: #3C7126;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-1>.img-circle>img{
+    width:;
+} */
+section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-2{
+    background-color: #3C7126;
+    color: #FFFFFF;
+}
+section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-2>.img-circle{
+    background-color: #ffffff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 /* About Us page ends here */
 
@@ -1442,16 +1471,62 @@ section.sec-1-about .icon-list{
 section.sec-1-about .col-md-5>.img-wrapper{
     height: 100%;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     
 }
-section.sec-2-about .row>.col-md-6{
+section.sec-2-about{
+    background-color: #DFE7C5;
+    padding: 10% 0px;
 
 }
-section.sec-2-about .row>.col-md-6>.icon-ov-wrapper{
-    border: 1px solid red;
+section.sec-2-about .row>.col-md-6{
+    /* height: 5; */
+    display: flex;
+
+}
+section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-1,.icon-ov-wrapper-2{
+    /* border: 1px solid red; */
+    /* height: 150%; */
+    padding: 20px 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 15px;
+    width: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 10px 0px;
     
+}
+section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-1{
+    background-color: #FFFFFF;
+
+}
+section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-1>.img-circle{
+    background-color: #3C7126;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-1>.img-circle>img{
+    width:;
+} */
+section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-2{
+    background-color: #3C7126;
+    color: #FFFFFF;
+}
+section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-2>.img-circle{
+    background-color: #ffffff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 /* About Us page ends here */
 
