@@ -624,7 +624,7 @@ section.footer p.Copyright{
 
 /* .template-banner for all Page starts here */
 .template-banner-main{
-    background: url("../img/asset-img/juice-jars.png") ;
+    background: url("../img/asset-img/fresh-fruits.png") ;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -701,6 +701,41 @@ section.footer p.Copyright{
         width: 100%;
     }
 /* Contact Us Page ends here */
+
+/* About Us page starts here */
+section.sec-1-about .icon-list{
+    width: 80%;
+}
+section.sec-1-about .col-md-5>.img-wrapper{
+    height: 90%;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+
+}
+
+section.sec-2-about{
+    background-color: #DFE7C5;
+    padding: 10% 0px;
+
+}
+section.sec-2-about .row>.col-md-6{
+    /* height: 5; */
+}
+section.sec-2-about .row>.col-md-6>.icon-ov-wrapper{
+    border: 1px solid red;
+    /* height: 150%; */
+    padding: 20px 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 25px;
+    width: 625px;
+    height: 410px;
+    border-radius: 40px;
+    
+}
+/* About Us page ends here */
 
 /* --------- */
 
@@ -1314,7 +1349,7 @@ section.footer p.Copyright{
         /* --------- */
     /* .template-banner for all Page starts here */
     .template-banner-main{
-        background: url("../img/asset-img/juice-jars.png") ;
+        background: url("../img/asset-img/fresh-fruits.png") ;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -1398,6 +1433,28 @@ section.footer p.Copyright{
 /* Contact Us Page ends here */
 
     /* --------- */
+
+/* About Us page starts here */
+section.sec-1-about .icon-list{
+    width: 15%;
+    margin: 10px 0px;
+}
+section.sec-1-about .col-md-5>.img-wrapper{
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    
+}
+section.sec-2-about .row>.col-md-6{
+
+}
+section.sec-2-about .row>.col-md-6>.icon-ov-wrapper{
+    border: 1px solid red;
+    
+}
+/* About Us page ends here */
+
 
 }
 /* Media Query ends here*/
