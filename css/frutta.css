@@ -467,13 +467,13 @@ section.sec-home-4>.container-fluid>.row>.col-md-6>img{
 section.sec-home-5{
     /* height: 100vh; */
     height: auto;
-    padding: 10% 0px;
+    padding: 5% 0px;
 
 }
 
 section.sec-home-5>.container-fluid>.row>.col-md-6{
     height: auto;
-    padding: 3% 0px;
+    /* padding: 3% 0px; */
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
@@ -488,8 +488,8 @@ section.sec-home-5>.container-fluid>.row>.col-md-6 input,textarea{
 
 section.sec-home-5>.container-fluid>.row>.col-md-6 .form-wrapper{
     width: 80%;
-    /* height:80vh; */
-    height:auto;
+    height:80vh;
+    /* height:auto; */
     background-color: #ffffff;
     border-radius: 35px;
     display: flex;
@@ -549,8 +549,6 @@ section.sec-home-6 .card-view{
     padding: 10px 0px;
     gap: 6px;
     text-align: center;
-    /* width: 85%; */
-    /* height: 60%; */
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -700,6 +698,15 @@ section.footer p.Copyright{
         height: 100%;
         width: 100%;
     }
+    section.sec-2-contact-us{
+        position: relative;
+    }
+    section.sec-2-contact-us>img{
+        width: 5%;
+        position: absolute; 
+        top: -7%;
+        left: 28%;
+    }
 /* Contact Us Page ends here */
 
 /* About Us page starts here */
@@ -803,6 +810,7 @@ section.sec-3-about .social-media-icon-wrapper{
 section.sec-3-about a.social-media{
     margin: 0px 5px;
     padding: 0px;
+    text-decoration: none;
 }
 section.sec-3-about a.social-media>img{
     /* width: 45px; */
