@@ -958,21 +958,24 @@ section.sec-3-about a.social-media>img{
     /* Logo starts here*/
     img.img-logo{
         /* width: 208px; */
-        width: 13%;
-        height: 5%;
+        width: 15%;
+        /* height: 5%; */
         /* use for mobile 
         width: 15%;
         height: 10%;
         */
     }
-    img#toggle-menu-icon{
+    #toggle-menu-icon{
         /* width: 208px; */
-        width: 10%;
-        height: 4%;
-        /* use for mobile 
-        width: 15%;
-        height: 10%;
-        */
+        margin-left: auto;
+        width: 50px;
+        height: 50px;
+        background-image: url("../img/icons/menu-toggle.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transition: all 0.2s;
+        transition-timing-function: ease-in-out;
     }
     /* Logo ends here */
     

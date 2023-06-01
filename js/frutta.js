@@ -14,10 +14,10 @@ navToggleIcon.addEventListener('click',()=>{
     
     if (secondMenuList.style.display === "none"){
         secondMenuList.style.display = "block";
-        navToggleIcon.src="../img/icons/close-menu.png";
+        navToggleIcon.style.backgroundImage="url(../img/icons/close-menu.png)";
     }else{
         secondMenuList.style.display = "none";
-        navToggleIcon.src="../img/icons/menu-toggle.png";
+        navToggleIcon.style.backgroundImage="url(../img/icons/menu-toggle.png)";
     }
 });
 
