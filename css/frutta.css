@@ -567,11 +567,16 @@ section.sec-home-6 .card-view>img{
     height: 80px;
     border-radius: 50%;
 }
+
+section.sec-home-6>.container>.row>.col-md-10>.row{
+    position: relative;
+}
 section.sec-home-6 .single-leaf{
     position: absolute;
-    top: 28.2%;
-    right: 18.3%;
-    width: 7%;
+    top: -30px;
+    right: -96px;
+    width: 15%;
+    /* z-index: 0; */
 }
 section.sec-home-6 .twin-leaf{
     position: absolute;
@@ -1393,12 +1398,15 @@ section.sec-3-about a.social-media>img{
         height: 80px;
         border-radius: 50%;
     }
-    section.sec-home-6 .single-leaf{
-        position: absolute;
-        top: 9.8%;
-        right: 4.8%;
-        width: 10%;
-    }
+
+
+section.sec-home-6 .single-leaf{
+    position: absolute;
+    top: -8px;
+    right: -6px;
+    width: 18%;
+    /* z-index: 22; */
+}
     section.sec-home-6 .twin-leaf{
         position: absolute;
         bottom: -1%;
