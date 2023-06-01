@@ -32,7 +32,8 @@ let currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     mainNav.style.top = "0";
   } else {
-    mainNav.style.top = "-400px";
+    secondMenuList.style.display = "none";
+    navToggleIcon.style.backgroundImage="url(../img/icons/menu-toggle.png)";
   }
   prevScrollpos = currentScrollPos;
 });
