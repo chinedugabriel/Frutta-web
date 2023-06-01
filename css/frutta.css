@@ -627,13 +627,13 @@ section.footer .white-line{
 section.footer .twin-leaf-footer{
     width: 20%;
    position: absolute; 
-   top: -80px;
-   right: -80px;
+   top: -59px;
+   right: -62px;
    /* z-index: 99; */
 }
 
 section.footer p.Copyright{
-    font-size: 16px;
+    font-size: 12px;
     
 }
 /* Footer section ends here */
@@ -726,9 +726,11 @@ section.footer p.Copyright{
     section.sec-2-contact-us>img{
         width: 5%;
         position: absolute; 
-        top: -7%;
+        top: -5.5%;
         left: 28%;
     }
+
+
 /* Contact Us Page ends here */
 
 /* About Us page starts here */
