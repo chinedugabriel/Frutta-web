@@ -711,7 +711,7 @@ section.footer p.Copyright{
 
 /* About Us page starts here */
 section.sec-1-about .icon-list{
-    width: 80%;
+    width: 65%;
 }
 section.sec-1-about .col-md-5>.img-wrapper{
     height: 90%;
@@ -1519,7 +1519,7 @@ section.sec-3-about a.social-media>img{
 
 /* About Us page starts here */
 section.sec-1-about .icon-list{
-    width: 15%;
+    width: 12%;
     margin: 10px 0px;
 }
 section.sec-1-about .col-md-5>.img-wrapper{
