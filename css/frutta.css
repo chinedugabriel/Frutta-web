@@ -136,6 +136,10 @@ img.img-logo{
     height: 5%;
     
 }
+#toggle-menu-icon{
+    display: none;
+}
+
 /* Logo ends here */
 
 /* nav section ends here */
@@ -848,7 +852,7 @@ section.sec-3-about a.social-media>img{
 
 /* Media Query Starts here*/
 
-@media screen  and (max-width: 899px) {
+@media screen  and (max-width: 765px) {
 
     html,body,*{
         padding: 0px;
@@ -966,7 +970,7 @@ section.sec-3-about a.social-media>img{
         */
     }
     #toggle-menu-icon{
-        /* width: 208px; */
+        display: block;
         margin-left: auto;
         width: 50px;
         height: 50px;
