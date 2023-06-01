@@ -60,9 +60,10 @@ nav{
     background-color: #ffffffd2;
     z-index: 99;
     /* border: 2px solid red; */
-
     /* ***Remove This when you are done*** */
     display: none;
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
 
 }
 nav ul.first-menu{

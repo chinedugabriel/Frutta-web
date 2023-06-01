@@ -22,9 +22,17 @@ navToggleIcon.addEventListener('click',()=>{
 });
 
 
-// document.body.addEventListener("scroll")
 
-// this just a reminder 
-// add a feature for navigation onscroll such that when the user scrolls down the navigation hides and when the user scrolls up the navigation becomes visible.
+// this feature hides and shows the navigation when the user scrolls up the navigation becomes visible.
 
 
+let prevScrollpos = window.pageYOffset;
+window.addEventListener("scroll" ,()=> {
+let currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    mainNav.style.top = "0";
+  } else {
+    mainNav.style.top = "-400px";
+  }
+  prevScrollpos = currentScrollPos;
+});
