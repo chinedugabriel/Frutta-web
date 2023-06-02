@@ -245,24 +245,33 @@ section.sec-home-1>.container-fluid>.row>.home-content-sec-1>.row.btn-sec>.col-m
 
 /* section.sec-home-1>.container-fluid>.row>.home-content-sec-1>.row.btn-sec>.col-md-12>button */
 section.sec-home-1>.container-fluid>.row .btn-sec{
-    /* display: flex;
+    display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    align-items: center; */
-    /* gap: 5px; */
+    align-items: center;
+    /* gap: 10px; */
     margin: 10px 0px;
     padding: 10px 0px;
+    width: 100%;
     /* border: 1px solid red; */
 }
 .button-l{
     /* color: #3C7126; */
-    /* border: 1px solid #3C7126; */
+    border: 1px solid #3C7126;
     background-color: transparent;
-    /* padding: 10px; */
-    /* width: 201px; */
+    color: #3C7126;
     width: 100%;
     height: 46px;
-    font-size: 20px;
+    font-size: 125%;
+}
+.button-l:hover{
+    /* color: #3C7126; */
+    border: 1px solid #3C7126;
+    background-color: #3C7126;
+    color: #ffffff;
+    width: 100%;
+    height: 46px;
+    font-size: 125%;
 }
 /* section.sec-home-1>.container-fluid>.row>.home-content-sec-1>.row.btn-sec>.col-md-12>button */
 .button-r{
@@ -273,6 +282,16 @@ section.sec-home-1>.container-fluid>.row .btn-sec{
     height: 46px;
     background-color: #3C7126;
     color: #ffffff;
+}
+.button-r:hover{
+    border: none;
+    font-size: 125%;
+    /* width: 201px; */
+    width: 100%;
+    height: 46px;
+    border: 1px solid #3C7126;
+    background-color: transparent;
+    color: #3C7126;
 }
     /* button .row section ends here */
 
@@ -546,8 +565,19 @@ section.sec-home-5>.container-fluid>.row>.col-md-6 .form-wrapper>form>.row{
     background-color: #3C7126;
     width: 100%;
     height: 46px;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 125%;
     border: none;
+}
+.submit:hover{
+    border: none;
+    font-size: 125%;
+    /* width: 201px; */
+    width: 100%;
+    height: 46px;
+    border: 1px solid #3C7126;
+    background-color: transparent;
+    color: #3C7126;
 }
 
 /* section 5 (sec-home-5) ends here*/
