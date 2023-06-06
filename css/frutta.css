@@ -771,12 +771,16 @@ section.footer p.Copyright{
 section.sec-1-about .icon-list{
     width: 65%;
 }
-section.sec-1-about .col-md-5>.img-wrapper{
-    height: 90%;
-    width: 100%;
-    /* border: 1px solid red; */
+section.sec-1-about .col-md-6>.img-wrapper-about{
+    /* width: auto; */
+    /* height: 75%; */
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+}
+section.sec-1-about .col-md-6>.img-wrapper-about>img{
+    /* width: 100%; */
+    /* height: 100%; */
 }
 
 section.sec-2-about{
@@ -830,6 +834,10 @@ section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-1>.img-circle{
 /* section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-1>.img-circle>img{
     width:;
 } */
+
+
+
+
 section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-2{
     background-color: #3C7126;
     color: #FFFFFF;
@@ -843,6 +851,7 @@ section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-2>.img-circle{
     justify-content: center;
     align-items: center; 
 }
+
 
 /* section-sec-3-about */
 section.sec-3-about{
@@ -882,7 +891,7 @@ section.sec-3-about a.social-media>img{
 
 /* Media Query Starts here*/
 
-@media screen  and (max-width: 765px) {
+@media screen  and (max-width: 768px) {
 
     html,body,*{
         padding: 0px;
@@ -1594,12 +1603,15 @@ section.sec-1-about .icon-list{
     width: 12%;
     margin: 10px 0px;
 }
-section.sec-1-about .col-md-5>.img-wrapper{
-    height: 100%;
-    width: 100%;
-    /* border: 1px solid red; */
+section.sec-1-about .col-md-6>.img-wrapper-about{
+    width: auto;
+    height: auto;
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+}
+section.sec-1-about .col-md-6>.img-wrapper-about>img{
+    /* width: 100%; */
 }
 
 /* section.sec-2-about */
