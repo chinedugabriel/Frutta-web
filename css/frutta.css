@@ -25,7 +25,7 @@ body p{
 
 /* Border-bottom */
 .Border-bottom-text{
-    /* border-bottom: 2px solid #3C7126; */
+    border-bottom: 2px solid #3C7126;
 }
 
 .green-bg{
@@ -495,9 +495,9 @@ section.sec-home-4>.container-fluid>.row>.col-md-6.imgfram{
 section.sec-home-4>.container-fluid>.row>.col-md-6>img{
     /* width: 531px; */
     /* height: 798px; */
-    width: 70%;
-    height: 100%;
-    border-radius: 54px;
+    width: 65%;
+    height: 75%;
+    border-radius: 50px;
 }
 
 /* section 4 (sec-home-4) ends here*/
