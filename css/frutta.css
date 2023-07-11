@@ -900,9 +900,64 @@ section.sec-3-about a.social-media>img{
 .head-lines{
     height: 1.6px;
     background-color: #3C7126;
-    width: 200px;
+    width: 150px;
     margin: 0px;
     padding: 0px;
+}
+.product-detail-image{
+    width: 100%;
+}
+.product-details-collection{
+    position: relative;
+    display: none;
+    row-gap: 20px;
+}
+
+div.close-detail-product-btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url('/img/icons/close-menu.png');
+    position: absolute;
+    top:0;
+    right: 50px;
+    cursor: pointer;
+}
+
+.product-list-collection{
+    position: relative;
+
+}
+.product-list-collection:hover .view-more-backdrop{
+    display: block;    
+    position: absolute;
+    background-color: #6d676759;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* flex-flow: row nowrap; */
+    justify-content: center;
+    align-items: center;
+}
+.view-more-backdrop{
+    position: absolute;
+    background-color: #6d676759;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* flex-flow: row nowrap; */
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.view-more-backdrop>.view-more-btn{
+    background-color: #3C7126;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20rem;
+    outline: none;
 }
 /* Product Page Ends here */
 
@@ -1531,11 +1586,11 @@ section.sec-home-6 .single-leaf{
 
         /* --------- */
     /* .template-banner for all Page starts here */
-    .template-banner-main{
+    /* .template-banner-main{
         background: url("../img/asset-img/fresh-fruits.png") ;
         background-repeat: no-repeat;
         background-size: cover;
-    }
+    } */
     .template-banner-wrapper{
         /* padding: 10% 0px; */
         height: 40vh;
@@ -1699,7 +1754,33 @@ section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-2>.img-circle{
     align-items: center; 
 }
 /* About Us page ends here */
+/* Product Page */
+.product-head-line{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.head-lines{
+    height: 1.6px;
+    background-color: #3C7126;
+    width: 60px;
+    margin: 0px;
+    padding: 0px;
+}
 
+.product-details-collection{
+    position: relative;
+    display: flex;
+    row-gap: 20px;
+}
+
+#product-row-1,#product-row-2,#product-row-3,#product-row-4{
+    display: none;
+}
+
+/* Product Page ends here*/
 
 }
 /* Media Query ends here*/

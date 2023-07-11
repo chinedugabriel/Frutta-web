@@ -38,3 +38,85 @@ let currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 });
+
+
+// theseare varables for product list, product details and buttons to show and hide 
+
+// 1
+let product_details_collection_1 = document.getElementById('product-details-collection-1');
+
+
+let close_detail_product_btn_1 = document.getElementById('close-detail-product-btn-1');
+
+let product_row_1 = document.getElementById('product-row-1');
+
+let view_product_details_btn_1 = document.getElementById('view-product-details-btn-1');
+
+// 2
+let product_details_collection_2 = document.getElementById('product-details-collection-2');
+
+
+let close_detail_product_btn_2 = document.getElementById('close-detail-product-btn-2');
+
+let product_row_2 = document.getElementById('product-row-2');
+
+let view_product_details_btn_2 = document.getElementById('view-product-details-btn-2');
+
+// 3
+let product_details_collection_3 = document.getElementById('product-details-collection-3');
+
+
+let close_detail_product_btn_3 = document.getElementById('close-detail-product-btn-3');
+
+let product_row_3 = document.getElementById('product-row-3');
+
+let view_product_details_btn_3 = document.getElementById('view-product-details-btn-3');
+
+// 4
+let product_details_collection_4 = document.getElementById('product-details-collection-4');
+
+
+let close_detail_product_btn_4 = document.getElementById('close-detail-product-btn-4');
+
+let product_row_4 = document.getElementById('product-row-4');
+
+let view_product_details_btn_4 = document.getElementById('view-product-details-btn-4');
+
+
+// close_detail_product_btn.addEventListener('click',()=>{
+//   product_details_collection.style.display = "none";
+// });
+
+// view_product_details_btn.addEventListener('click',()=>{
+//   product_details_collection.style.display = "flex";
+// });
+
+// this function helps to hide and show between product details and the list of product
+
+function productView(closeBtn,showBtn,productDetails,productCollection){
+  closeBtn.addEventListener('click',()=>{
+    // product details
+  productDetails.style.display = "none";
+  // list of product collection
+  productCollection.style.display = "flex";
+});
+
+showBtn.addEventListener('click',()=>{
+    // product details
+  productDetails.style.display = "flex";
+  // list of product collection
+  productCollection.style.display = "none";
+});
+}
+
+// 1
+productView(close_detail_product_btn_1,view_product_details_btn_1,product_details_collection_1,product_row_1);
+
+// 2
+productView(close_detail_product_btn_2,view_product_details_btn_2,product_details_collection_2,product_row_2);
+
+// 3
+productView(close_detail_product_btn_3,view_product_details_btn_3,product_details_collection_3,product_row_3);
+
+// 4
+productView(close_detail_product_btn_4,view_product_details_btn_4,product_details_collection_4,product_row_4);
