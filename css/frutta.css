@@ -440,7 +440,7 @@ section.sec-home-3 .top-single-orange-leaf-sec-3{
 
 section.sec-home-3 .twin-leaf{
     position: absolute;
-    bottom: -2%;
+    /* bottom: -2%; */
     left: -1%;
     width: 6%;
 }
@@ -678,9 +678,11 @@ section.footer p.Copyright{
 
 /* .template-banner for all Page starts here */
 .template-banner-main{
-    background: url("../img/asset-img/fresh-fruits.png") ;
+    /* background: url("../img/asset-img/fresh-fruits.png") ; */
+    background: url("../img/asset-img/fruit_splashed_with_fruit.png") ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .template-banner-wrapper{
     /* padding: 10% 0px; */
@@ -886,6 +888,23 @@ section.sec-3-about a.social-media>img{
 }
 
 /* About Us page ends here */
+
+/* Product Page */
+.product-head-line{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.head-lines{
+    height: 1.6px;
+    background-color: #3C7126;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+/* Product Page Ends here */
 
 /* --------- */
 
