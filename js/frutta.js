@@ -40,7 +40,9 @@ let currentScrollPos = window.pageYOffset;
 });
 
 
-// theseare varables for product list, product details and buttons to show and hide 
+
+
+// these are varables for product list, product details and buttons to show and hide 
 
 // 1
 let product_details_collection_1 = document.getElementById('product-details-collection-1');
@@ -83,13 +85,6 @@ let product_row_4 = document.getElementById('product-row-4');
 let view_product_details_btn_4 = document.getElementById('view-product-details-btn-4');
 
 
-// close_detail_product_btn.addEventListener('click',()=>{
-//   product_details_collection.style.display = "none";
-// });
-
-// view_product_details_btn.addEventListener('click',()=>{
-//   product_details_collection.style.display = "flex";
-// });
 
 // this function helps to hide and show between product details and the list of product
 
@@ -120,3 +115,11 @@ productView(close_detail_product_btn_3,view_product_details_btn_3,product_detail
 
 // 4
 productView(close_detail_product_btn_4,view_product_details_btn_4,product_details_collection_4,product_row_4);
+
+
+
+
+
+
+
+// productView(closeDetailsProfile_btn_1,detailsProfile_1,card_profileCollection,cardProfile_1);
