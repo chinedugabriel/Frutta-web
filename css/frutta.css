@@ -906,20 +906,25 @@ section.sec-3-about a.social-media>img{
     display: none;
 }
 .profile-details>.close-profile-details-btn{
+    height: 35px;
+    width: 35px;
+    /* border: 1px solid #3C7126; */
+    /* border-radius: 50%; */
+    background-image: url('../img/icons/close-menu.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.profile-details>.close-profile-details-btn:hover{
     height: 50px;
     width: 50px;
     border: 1px solid #3C7126;
     border-radius: 50%;
-    background-image: url('../img/icons/close-menu.png');
-    position: absolute;
-    top: 10;
-    right: 10px;
+
 }
-
-/* #card-profile-collection{
-    display: none;
-} */
-
 /* About Us page ends here */
 
 /* Product Page */
