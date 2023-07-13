@@ -122,4 +122,3 @@ productView(close_detail_product_btn_4,view_product_details_btn_4,product_detail
 
 
 
-// productView(closeDetailsProfile_btn_1,detailsProfile_1,card_profileCollection,cardProfile_1);
