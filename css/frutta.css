@@ -687,7 +687,7 @@ section.footer p.Copyright{
 .template-banner-wrapper{
     /* padding: 10% 0px; */
     height: 55vh;
-    background-color: #d9d9d9a2;
+    /* background-color: #d9d9d9a2; */
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -998,6 +998,30 @@ div.close-detail-product-btn{
     outline: none;
 }
 /* Product Page Ends here */
+
+/* Careers starts here */
+    section.sec-Careers{
+        padding: 5% 10px;
+    }
+    .career-pic{
+        width: 100%;
+    }
+
+    .sec-2-careers{
+        padding: 5% 10px;
+        background-color:#DFE7C5 ;
+    }
+    .sec-3-careers{
+        padding: 10% 10px;
+        background-image: url("../img/partnership.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sec-4-careers{
+        padding: 5% 10px;
+    }
+/* Careers ends here */
+
 
 /* --------- */
 
