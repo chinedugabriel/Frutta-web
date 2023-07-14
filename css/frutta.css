@@ -50,7 +50,7 @@ nav{
     padding: 10px 0px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     /* align-content: center; */
     /* gap: 5%; */
@@ -72,8 +72,7 @@ nav ul.first-menu{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    width: 25%;
-    
+    width: 40%;
 
     /* border: 2px solid red; */
 
@@ -1010,6 +1009,13 @@ div.close-detail-product-btn{
     .sec-2-careers{
         padding: 5% 10px;
         background-color:#DFE7C5 ;
+        position: relative;
+    }
+    .sec-2-careers>.twin-leaf{
+        position: absolute;
+        top: -5%;
+        transform: translateX(70rem);
+        width: 8%;
     }
     .sec-3-careers{
         padding: 10% 10px;
@@ -1020,6 +1026,20 @@ div.close-detail-product-btn{
     .sec-4-careers{
         padding: 5% 10px;
     }
+    .job-description{
+        height: 25rem;
+        background-color: #D9D9D9;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+    .job-description>button{
+        width: 50%;
+        align-self: center;
+    }
+
+
 /* Careers ends here */
 
 
