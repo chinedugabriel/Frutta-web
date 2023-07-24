@@ -507,11 +507,11 @@ section.sec-home-5>.container-fluid>.row>.col-md-6 .form-wrapper{
     /* height:80vh; */
     height:auto;
     background-color: #ffffff;
-    border-radius: 35px;
+    /* border-radius: 35px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 15px 0px;
+    padding-top: 10% 0px;
     
 }
 section.sec-home-5>.container-fluid>.row>.col-md-6 .form-wrapper>form{
