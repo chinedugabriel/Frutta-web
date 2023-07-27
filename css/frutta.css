@@ -50,7 +50,8 @@ nav{
     padding: 10px 0px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: center
+    ;
     align-items: center;
     /* align-content: center; */
     /* gap: 5%; */
@@ -71,8 +72,8 @@ nav ul.first-menu{
     list-style:none; 
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
-    width: 40%;
+    justify-content: space-evenly;
+    width: 80%;
 
     /* border: 2px solid red; */
 
