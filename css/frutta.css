@@ -346,8 +346,37 @@ section.sec-home-2 .img-wrapper>img{
 
 /* section 3 slider starts here */
 
-.carousel{
+.carousel:hover .view-more-backdrop{
+    display: block;    
+    position: absolute;
+    background-color: #6d676759;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* flex-flow: row nowrap; */
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+.view-more-backdrop{
+    position: absolute;
+    background-color: #6d676759;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* flex-flow: row nowrap; */
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
 
+.view-more-backdrop>.view-more-btn{
+    background-color: #3C7126;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20rem;
+    outline: none;
 }
 
 /* section 3 slider ends here */
