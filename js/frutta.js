@@ -84,6 +84,16 @@ let product_row_4 = document.getElementById('product-row-4');
 
 let view_product_details_btn_4 = document.getElementById('view-product-details-btn-4');
 
+// 5
+let product_details_collection_5 = document.getElementById('product-details-collection-5');
+
+
+let close_detail_product_btn_5 = document.getElementById('close-detail-product-btn-5');
+
+let product_row_5 = document.getElementById('product-row-5');
+
+let view_product_details_btn_5 = document.getElementById('view-product-details-btn-5');
+
 
 
 // this function helps to hide and show between product details and the list of product
@@ -115,6 +125,9 @@ productView(close_detail_product_btn_3,view_product_details_btn_3,product_detail
 
 // 4
 productView(close_detail_product_btn_4,view_product_details_btn_4,product_details_collection_4,product_row_4);
+
+// 4
+productView(close_detail_product_btn_5,view_product_details_btn_5,product_details_collection_5,product_row_5);
 
 
 
