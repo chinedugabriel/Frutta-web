@@ -1766,6 +1766,7 @@ section.sec-1-about .col-md-6>.img-wrapper-about{
 }
 section.sec-1-about .col-md-6>.img-wrapper-about>img{
     /* width: 100%; */
+    border-radius: 0px !important;
 }
 
 /* section.sec-2-about */
@@ -1837,7 +1838,8 @@ section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-2>.img-circle{
 .profile-wrapper{
     /* border: 1px solid red; */
     height: auto;
-
+    width: auto;
+    
 }
 
 
