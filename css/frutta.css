@@ -323,10 +323,7 @@ section.sec-home-2>.container-fluid>.row>.col-md-6>.row>.col-md-12{
 }
 /**/
 section.sec-home-2>.container-fluid>.row>.col-md-6 p{
-    /* width: 80%; */
     font-size: 20px;
-    /* font-size: 16px; */
-    /* font-size: 150%; */
     line-height: 36px;
 }
 
@@ -347,29 +344,19 @@ section.sec-home-2 .img-wrapper>img{
 
 /* section 3 slider starts here */
 
-.carousel:hover .view-more-backdrop{
+.carousel .view-more-backdrop{
     display: block;    
     position: absolute;
     background-color: #6d676759;
     height: 100%;
     width: 100%;
-    display: flex;
-    /* flex-flow: row nowrap; */
+    /* display: flex; */
+    display: none;
     justify-content: center;
     align-items: center;
     z-index: 99;
 }
-.view-more-backdrop{
-    position: absolute;
-    background-color: #6d676759;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    /* flex-flow: row nowrap; */
-    justify-content: center;
-    align-items: center;
-    display: none;
-}
+
 
 .view-more-backdrop>.view-more-btn{
     background-color: #3C7126;
@@ -420,35 +407,6 @@ section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrappe
     padding: 6px 0px;
     
 }
-/* Home page Price tag starts here  */
-section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper>.text-price-wrapper{
-    background-color: #ffffff;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transition: all 1s;
-    transition-timing-function: ease-in-out;
-    margin-bottom: 10px;
-}
-section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper>.text-price-wrapper>p{
-    font-size: 300%;
-    margin: 0px;
-    rotate: -24deg;
-}
-section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper:hover .text-price-wrapper{
-    box-shadow: none;
-    background-color: #3C7126;
-}
-section.sec-home-3>.container-fluid>.row>.col-md-12.product-list>.product-wrapper:hover p{
-    rotate: 0deg;
-    color: #FFFFFF;
-}
-
-/* Home page Price tag  ends here */
 
 .product-wrapper>img{
     /* this is for each product available */
