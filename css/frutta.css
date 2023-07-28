@@ -1829,8 +1829,8 @@ section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-2>.img-circle{
     row-gap: 20px;
     /* padding: 6% 0px; */
 }
-
-#product-row-1,#product-row-2,#product-row-3,#product-row-4{
+/* this hides each product image on the mobile view  */
+#product-row-1,#product-row-2,#product-row-3,#product-row-4,#product-row-5,#product-row-6{
     display: none;
 }
 
