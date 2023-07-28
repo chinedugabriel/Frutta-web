@@ -1071,7 +1071,7 @@ div.close-detail-product-btn{
     
     nav{
         height: auto;
-        padding: 10px 5px;
+        padding: 10px;
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
