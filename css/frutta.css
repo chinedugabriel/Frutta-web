@@ -613,6 +613,43 @@ section.sec-home-6 .twin-leaf{
 
 /* section 6 (sec-home-5) ends here*/
 
+/* section-7-events-home starts here */
+.sec-events-home{
+    /* padding: 5% 0px; */
+    height: 75vh;
+}
+
+.slider-bg{
+  background-color: #DFE7C5;  
+}
+
+.carousel-caption{
+    background-color: #3c712685;
+    bottom: 43%;
+}
+
+.blog-btn-wrapper{
+    position: relative;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: row nowrap;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15px;
+}
+
+.sec-events-home .carousel-control-prev,.sec-events-home .carousel-control-next{
+    background-color: #3c7126;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: static;
+    display: block;
+}
+
+
+/* section-7-events-home ends here */
+
 
 /* Footer section starts here */
 
