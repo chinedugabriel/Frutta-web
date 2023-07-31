@@ -615,8 +615,8 @@ section.sec-home-6 .twin-leaf{
 
 /* section-7-events-home starts here */
 .sec-events-home{
-    /* padding: 3% 0px; */
-    height: 90vh;
+    /* padding: 5% 0px; */
+    height: 75vh;
 }
 
 .slider-bg{
@@ -1629,6 +1629,13 @@ section.sec-home-6 .single-leaf{
     }
     
     /* section 6 (sec-home-5) ends here*/
+
+    /* section 7 (sec-home-7) starts here*/
+    .sec-events-home{
+        height: 100vh;  
+    }
+
+    /* section 7 (sec-home-7) ends here*/
     
     
     /* Footer section starts here */
