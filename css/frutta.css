@@ -8,7 +8,7 @@ html,body,*{
 
 body{
     /* width: 100%; */
-    font-family: 'Fredoka',Arial, Helvetica, sans-serif;
+    font-family: 'Noto Sans','Poppins','Fredoka',Arial, Helvetica, sans-serif;
     /* border: 1px solid rgb(82, 255, 3); */
     /* border: 2px solid rgb(18, 1, 94); */
 
@@ -209,7 +209,8 @@ section.sec-home-1 img.single-orang-leaf-sec-2{
         width: 50%;
     }
     section.sec-home-1 h1.frutta-text{
-        font-size: 90px;
+    font-family: 'Fredoka',Arial, Helvetica, sans-serif;
+        font-size: 95px;
         color: #3C7126;
     }
 
@@ -856,6 +857,11 @@ section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-2>.img-circle{
     align-items: center; 
 }
 
+section.sec-2-about .Values-list{
+    /* here */
+    font-size: 20px;
+}
+
 
 /* section-sec-3-about */
 section.sec-3-about{
@@ -1329,22 +1335,7 @@ div.close-detail-product-btn{
         padding: 10% 0px;
         overflow:hidden;
     }
-    section.sec-home-2>.container>.row>.col-md-6{
-        /* width: 50%; */
-        /* height: 100vh; */
-        /* height: auto; */
-        /* display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center; */
-        /* border: 2px solid rgb(94, 1, 32); */
-        /* margin:2% 0px; */
-    }
-    section.sec-home-2>.container-fluid>.row>.col-md-6>.row{
-        /* width: 80%; */
-        /* border: 2px solid rgb(18, 1, 94); */
-    
-    }
+
     section.sec-home-2>.container-fluid>.row>.col-md-6>.row>.col-md-12{
         display: flex;
         flex-flow: column nowrap;
@@ -1803,6 +1794,11 @@ section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-2>.img-circle{
     display: flex;
     justify-content: center;
     align-items: center; 
+}
+
+section.sec-2-about .Values-list{
+    /* here */
+    font-size: 16px;
 }
 
 .profile-wrapper{
