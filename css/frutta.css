@@ -34,7 +34,7 @@ body p{
 
 /* Shared background starts here*/
 .shared-background{
-    background-image: url("/img/asset-img/fruit-pattern.png");
+    /* background-image: url("/img/asset-img/fruit-pattern.png"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,7 +310,7 @@ img.fruit-juice-grouped{
 section.sec-home-2{
     /* height: 100vh; */
     height: auto;
-    padding: 10% 0px;
+    padding: 5% 0px;
     overflow:hidden;
 }
 
@@ -329,22 +329,14 @@ section.sec-home-2>.container-fluid>.row>.col-md-6 p{
 }
 
 
-section.sec-home-2 .img-wrapper{
-    /* text-align: center; */
-    height: auto;
-    width: 100%;
-    /* border: 2px solid palevioletred; */
-}
-section.sec-home-2 .img-wrapper>img{
-    height: auto;
-    width: 100%;
-    border-radius: 0%;
-}
+
 
 /* section 2 (sec-home-2) ends here*/
 
 /* section 3 slider starts here */
-
+.carousel{
+    position: relative;
+}
 .carousel .view-more-backdrop{
     display: block;    
     position: absolute;
@@ -368,12 +360,22 @@ section.sec-home-2 .img-wrapper>img{
     outline: none;
 }
 
+ .carousel-control-prev,.carousel-control-next{
+    background-color: #3c7126;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    /* display: block; */
+}
+
 /* section 3 slider ends here */
 
 
 /* section 3 (sec-home-3) starts here*/
 
-        /* section 3 has a copy for products */
+     /* section 3 has a copy for products */
 
 section.sec-home-3{
     /* height: 100vh; */
@@ -469,17 +471,6 @@ section.sec-home-4>.container-fluid>.row>.col-md-6 .why-points>img.why-us-icon{
     margin: 0px;
 }
 
-section.sec-home-4>.container-fluid>.row>.col-md-6.imgfram{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-}
-section.sec-home-4>.container-fluid>.row>.col-md-6>img{
-    height: auto;
-    width: 70%;
-    border-radius: 0%;
-}
 
 /* section 4 (sec-home-4) ends here*/
 
@@ -781,20 +772,6 @@ section.footer p.Copyright{
 /* Contact Us Page ends here */
 
 /* About Us page starts here */
-section.sec-1-about .icon-list{
-    width: 65%;
-}
-section.sec-1-about .col-md-6>.img-wrapper-about{
-    /* width: auto; */
-    /* height: 75%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-section.sec-1-about .col-md-6>.img-wrapper-about>img{
-    /* width: 100%; */
-    /* height: 100%; */
-}
 
 section.sec-2-about{
     background-color: #DFE7C5;
@@ -1110,7 +1087,7 @@ div.close-detail-product-btn{
     
     /* Shared background starts here*/
     .shared-background{
-        background-image: url("/img/asset-img/fruit-pattern.png");
+        /* background-image: url("/img/asset-img/fruit-pattern.png"); */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1365,7 +1342,7 @@ div.close-detail-product-btn{
     }
     section.sec-home-2>.container-fluid>.row>.col-md-6>.row{
         /* width: 80%; */
-        border: 2px solid rgb(18, 1, 94);
+        /* border: 2px solid rgb(18, 1, 94); */
     
     }
     section.sec-home-2>.container-fluid>.row>.col-md-6>.row>.col-md-12{
@@ -1386,16 +1363,7 @@ div.close-detail-product-btn{
     }
     
     
-    section.sec-home-2 .img-wrapper{
-        text-align: center;
-        /* border: 2px solid palevioletred; */
-        padding: 20px 0px;
-    }
-    section.sec-home-2 .img-wrapper>img{
-        height: auto;
-        width: 100%;
-        border-radius: 0%;
-    }
+
     
     /* section 2 (sec-home-2) ends here*/
     
@@ -1770,21 +1738,6 @@ section.sec-home-6 .single-leaf{
     /* --------- */
 
 /* About Us page starts here */
-section.sec-1-about .icon-list{
-    width: 12%;
-    margin: 10px 0px;
-}
-section.sec-1-about .col-md-6>.img-wrapper-about{
-    width: auto;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-section.sec-1-about .col-md-6>.img-wrapper-about>img{
-    /* width: 100%; */
-    border-radius: 0px !important;
-}
 
 /* section.sec-2-about */
 
