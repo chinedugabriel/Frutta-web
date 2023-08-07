@@ -132,8 +132,9 @@ nav ul>li>a{
 /* Logo starts here*/
 img.img-logo{
     /* width: 208px; */
-    width: 6%;
-    /* height: 5%; */
+    width: 10%;
+    height: 5%;
+
     
 }
 #toggle-menu-icon{
@@ -817,6 +818,20 @@ section.sec-2-about .subject>img{
 
 
 section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-1,.icon-ov-wrapper-2{
+    /* border: 1px solid red; */
+    /* height: 150%; */
+    padding: 20px 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 20px;
+    /* width: 625px; */
+    /* height: 410px; */
+    height: 100%;
+    border-radius: 40px;
+    
+}
+section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-1,.icon-ov-wrapper-{
     /* border: 1px solid red; */
     /* height: 150%; */
     padding: 20px 30px;
