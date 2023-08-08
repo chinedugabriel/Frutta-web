@@ -9,13 +9,11 @@ html,body,*{
 body{
     /* width: 100%; */
     font-family: 'Noto Sans','Poppins','Fredoka',Arial, Helvetica, sans-serif;
-    /* border: 1px solid rgb(82, 255, 3); */
     /* border: 2px solid rgb(18, 1, 94); */
 
 }
 body p{
     font-size: 20px;
-    /* font-size: 150%; */
     line-height: 36px;
 }
 /* Green Text color */
@@ -146,12 +144,6 @@ img.img-logo{
 /* nav section ends here */
 
 /* accent images starts here */
-/* img.orang-home-grouped{
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 15%;
-} */
 
 section.sec-home-1 img.single-orang-leaf-sec-1{
     position: absolute;
@@ -1192,17 +1184,11 @@ div.close-detail-product-btn{
     /* nav section ends here */
     
     /* accent images starts here */
-    /* img.orang-home-grouped{
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
-        width: 15%;
-    } */
+
     
     section.sec-home-1 img.single-orang-leaf-sec-1{
         position: absolute;
         width: 10%;
-        /* height: 10%; */
         left: -25px;
         top: 7%;
     }
@@ -1220,8 +1206,6 @@ div.close-detail-product-btn{
         section.sec-home-1{
             /* width: 100; */
             margin: 0px;
-            /* padding: 0px; */
-            /* height: 100vh; */
             height: auto;
             padding: 10% 1% 9% 1%;
             /* border: 2px solid blue; */
@@ -1239,8 +1223,6 @@ div.close-detail-product-btn{
         }
         /* grouped row class */
         section.sec-home-1>.container-fluid>.row{
-            /* width: 70%; */
-            /* border: 1px solid green; */
             display: flex;
             /* flex-flow: column nowrap; */
             justify-content: center;
@@ -1287,11 +1269,6 @@ div.close-detail-product-btn{
     
     /* section.sec-home-1>.container-fluid>.row>.home-content-sec-1>.row.btn-sec>.col-md-12>button */
     section.sec-home-1>.container-fluid>.row .btn-sec{
-        /* display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        align-items: center; */
-        /* gap: 5px; */
         margin: 10px 0px;
         padding: 10px 0px;
         /* border: 1px solid red; */
@@ -1321,8 +1298,6 @@ div.close-detail-product-btn{
         /* fruit-juice-img-section starts here*/
     img.fruit-juice-grouped{
         width: 92%;
-        /* height: 57%; */
-        /* height: 57%; */
     }
         /* fruit-juice-img-section ends here*/
     
@@ -1330,7 +1305,6 @@ div.close-detail-product-btn{
     
     /* section 2 (sec-home-2) starts here*/
     section.sec-home-2{
-        /* height: 100vh; */
         height: auto;
         padding: 10% 0px;
         overflow:hidden;
@@ -1342,14 +1316,10 @@ div.close-detail-product-btn{
         justify-content: space-evenly;
         /* align-content: center; */
         gap: 10px;
-        /* width: auto !important; */
     }
     
     section.sec-home-2>.container-fluid>.row>.col-md-6 p{
-        /* width: 80%; */
-        /* font-size: 28px; */
         font-size: 16px;
-        /* font-size: 150%; */
         line-height: 36px;
     }
     
@@ -1369,7 +1339,6 @@ div.close-detail-product-btn{
 
     /* section 3 (sec-home-3) starts here*/
     section.sec-home-3{
-        /* height: 100vh; */
         background-color: #F6F6F6;
         position: relative;
         overflow: hidden;
@@ -1378,7 +1347,6 @@ div.close-detail-product-btn{
     }
     
     section.sec-home-3>.container-fluid>.row>.col-md-12.product-list{
-        /* height:90vh; */
         margin: 2% 0px;
         padding: 10px 0px;
         height: auto;
@@ -1477,9 +1445,6 @@ div.close-detail-product-btn{
     }
     section.sec-home-4>.container-fluid>.row>.col-md-6>img{
         margin-top: 10px;
-        /* width: 85%;
-        height: 95%;
-        border-radius: 30px; */
         height: auto;
         width: 100%;
         border-radius: 0%;
@@ -1750,7 +1715,6 @@ section.sec-2-about .row>.col-md-6{
 }
 section.sec-2-about .row>.col-md-6>.icon-ov-wrapper-1,.icon-ov-wrapper-2{
     /* border: 1px solid red; */
-    /* height: 150%; */
     padding: 20px;
     display: flex;
     flex-flow: column nowrap;
