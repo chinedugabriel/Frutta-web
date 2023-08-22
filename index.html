@@ -318,7 +318,7 @@
                 </div>
                 <div class="col-md-6 align-items-center">
                     <div class="form-wrapper ">
-                        <form class="">
+                        <form action="https://formsubmit.co/info@team.fruttafoods.com" method="post">
                             <div class="row pt-0">
                                 <div class="col-md-12">
                                     <h1 class="green-text">
@@ -329,31 +329,31 @@
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12 col-xs-12">
                                         <p>Name</p>
-                                        <input type="text" name="" class="form-control">
+                                        <input type="text" name="name" class="form-control" required>
                                     </div>
                                     <div class="col-md-6 col-sm-12 col-xs-12">
                                         <p>Company</p>
-                                        <input type="text" name="" class="form-control">
+                                        <input type="text" name="company" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12 col-xs-12">
                                         <p>Phone</p>
-                                        <input type="text" name="" class="form-control">
+                                        <input type="text" name="phoneNumber" class="form-control" required>
                                     </div>
                                     <div class="col-md-6 col-sm-12 col-xs-12">
                                         <p>Email</p>
-                                        <input type="text" name="" class="form-control">
+                                        <input type="email" name="email" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12 col-xs-12">
                                         <p>Country</p>
-                                        <input type="text" name="" class="form-control">
+                                        <input type="text" name="country" class="form-control" required>
                                     </div>
                                     <div class="col-md-6 col-sm-12 col-xs-12">
                                         <p>City</p>
-                                        <input type="text" name="" class="form-control">
+                                        <input type="text" name="city" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -361,11 +361,14 @@
                                         <p>
                                             Full Address
                                         </p>
-                                        <textarea cols="50" rows="3" name="" class="form-control"></textarea>
+                                        <textarea cols="50" rows="3" name="address" class="form-control" required></textarea>
+                                        <input type="hidden" name="_next" value="../pages/mailsent.html">
+                                        <input type="hidden" name="_captcha" value="false">
+                                        <input type="hidden" name="_template" value="box">
                                     </div>
                                 </div>
                                 <div class="row ">
-                                    <div class="col-md-12"><button class="submit">submit</button></div>
+                                    <div type="submit" class="col-md-12"><button class="submit">submit</button></div>
                                 </div>
                             </div>
                         </form>
